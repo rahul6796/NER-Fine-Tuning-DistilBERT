@@ -13,5 +13,12 @@ class DataIngestionConfig:
     local_file_path: Path
     unzip_dir: Path
 
+@dataclass(frozen=True)
+class DataValidationConfig:
+    root_dir: Path 
+    STATUS_FIEL: str
+    ALL_REQUIRED_FIELS: list
+
+
 
 

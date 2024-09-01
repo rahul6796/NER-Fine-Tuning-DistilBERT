@@ -1,7 +1,7 @@
 
 
 from src.finetunningDistilBertner.utils.common import read_yaml, create_directories
-from src.finetunningDistilBertner.entity import DataIngestionConfig
+from src.finetunningDistilBertner.entity import DataIngestionConfig, DataValidationConfig
 from src.finetunningDistilBertner.constant import PARAMS_PATH_FILE, CONFIG_PATH_FILE
 
 
@@ -30,6 +30,22 @@ class ConfigManager:
             unzip_dir=config.unzip_dir
         )
         return data_ingestion_config
+    
+
+    def get_data_validation(self)->DataValidationConfig:
+        config = self.config.data_validation
+
+        create_directories([config.root_dir])
+
+        data_validation_config = DataValidationConfig(
+            root_dir=config.root_dir,
+            STATUS_FIEL=config.STATUS_FIEL,
+            ALL_REQUIRED_FIELS=config.ALL_REQUIRED_FIELS
+        )
+        
+        return data_validation_config
+    
+
 
         
         

@@ -164,3 +164,105 @@ Source-Age: 1
 
 
 2024-08-31 20:16:39,291 INFO: successfully execute :: data ingestion
+2024-09-01 12:08:29,794 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-01 12:08:29,794 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-01 12:08:29,794 INFO: Directory artifacts created successfully !
+2024-09-01 12:08:29,794 INFO: Directory artifacts/data_ingestion created successfully !
+2024-09-01 12:08:29,794 ERROR: error is raised from get size function :; unsupported operand type(s) for /: 'PosixPath' and 'int'
+2024-09-01 12:08:29,794 ERROR: Error in data ingestion stage: Return value of <function get_size at 0x101723880> of type <class 'NoneType'> does not match annotation type <class 'int'>
+2024-09-01 12:08:29,795 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-01 12:08:29,795 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-01 12:08:29,795 INFO: Directory artifacts created successfully !
+2024-09-01 12:08:29,795 ERROR: Error in data Validation stage: 'NoneType' object has no attribute 'root_dir'
+2024-09-01 12:09:21,199 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-01 12:09:21,199 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-01 12:09:21,199 INFO: Directory artifacts created successfully !
+2024-09-01 12:09:21,199 INFO: Directory artifacts/data_ingestion created successfully !
+2024-09-01 12:09:21,199 ERROR: error is raised from get size function :; unsupported operand type(s) for /: 'PosixPath' and 'int'
+2024-09-01 12:09:21,200 ERROR: Error in data ingestion stage: Return value of <function get_size at 0x101887880> of type <class 'NoneType'> does not match annotation type <class 'int'>
+2024-09-01 12:09:21,200 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-01 12:09:21,200 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-01 12:09:21,200 INFO: Directory artifacts created successfully !
+2024-09-01 12:09:21,200 INFO: Directory artifacts/data_validation created successfully !
+2024-09-01 12:09:21,200 ERROR: Error in data Validation stage: 'function' object is not subscriptable
+2024-09-01 12:11:20,550 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-01 12:11:20,550 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-01 12:11:20,550 INFO: Directory artifacts created successfully !
+2024-09-01 12:11:20,550 INFO: Directory artifacts/data_ingestion created successfully !
+2024-09-01 12:11:20,550 ERROR: error is raised from get size function :; unsupported operand type(s) for /: 'PosixPath' and 'int'
+2024-09-01 12:11:20,550 ERROR: Error in data ingestion stage: Return value of <function get_size at 0x10396f880> of type <class 'NoneType'> does not match annotation type <class 'int'>
+2024-09-01 12:11:20,551 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-01 12:11:20,551 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-01 12:11:20,551 INFO: Directory artifacts created successfully !
+2024-09-01 12:11:20,551 INFO: Directory artifacts/data_validation created successfully !
+2024-09-01 12:11:20,551 ERROR: Error in data Validation stage: 'function' object is not subscriptable
+2024-09-01 12:14:04,676 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-01 12:14:04,677 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-01 12:14:04,677 INFO: Directory artifacts created successfully !
+2024-09-01 12:14:04,677 INFO: Directory artifacts/data_ingestion created successfully !
+2024-09-01 12:14:04,677 ERROR: error is raised from get size function :; unsupported operand type(s) for /: 'PosixPath' and 'int'
+2024-09-01 12:14:04,677 ERROR: Error in data ingestion stage: Return value of <function get_size at 0x103c13880> of type <class 'NoneType'> does not match annotation type <class 'int'>
+2024-09-01 12:14:04,677 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-01 12:14:04,677 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-01 12:14:04,677 INFO: Directory artifacts created successfully !
+2024-09-01 12:14:04,678 INFO: Directory artifacts/data_validation created successfully !
+2024-09-01 12:14:04,678 ERROR: Error in data Validation stage: 'function' object is not subscriptable
+2024-09-01 12:14:20,703 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-01 12:14:20,703 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-01 12:14:20,703 INFO: Directory artifacts created successfully !
+2024-09-01 12:14:20,703 INFO: Directory artifacts/data_ingestion created successfully !
+2024-09-01 12:14:22,332 INFO: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 1804538
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "25dc9a8c76312c4f22c700407d16a21e1b8816a208c577a7503291d04cc69912"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: B972:7B9BD:140E89:1B39E8:66D40D45
+Accept-Ranges: bytes
+Date: Sun, 01 Sep 2024 06:44:21 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10229-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1725173062.547723,VS0,VE418
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 0a7df8682cfe0940ec6347e822ac3730ff32c033
+Expires: Sun, 01 Sep 2024 06:49:21 GMT
+Source-Age: 0
+
+
+2024-09-01 12:14:22,376 INFO: successfully execute :: data ingestion
+2024-09-01 12:14:22,377 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-01 12:14:22,377 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-01 12:14:22,377 INFO: Directory artifacts created successfully !
+2024-09-01 12:14:22,377 INFO: Directory artifacts/data_validation created successfully !
+2024-09-01 12:14:22,377 ERROR: Error in data Validation stage: 'function' object is not subscriptable
+2024-09-01 12:15:44,745 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-01 12:15:44,745 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-01 12:15:44,745 INFO: Directory artifacts created successfully !
+2024-09-01 12:15:44,745 INFO: Directory artifacts/data_ingestion created successfully !
+2024-09-01 12:15:44,745 ERROR: error is raised from get size function :; unsupported operand type(s) for /: 'PosixPath' and 'int'
+2024-09-01 12:15:44,745 ERROR: Error in data ingestion stage: Return value of <function get_size at 0x1031f3880> of type <class 'NoneType'> does not match annotation type <class 'int'>
+2024-09-01 12:15:44,746 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-01 12:15:44,746 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-01 12:15:44,746 INFO: Directory artifacts created successfully !
+2024-09-01 12:15:44,746 INFO: Directory artifacts/data_validation created successfully !
+2024-09-01 12:15:44,746 ERROR: Error in data Validation stage: 'function' object is not subscriptable
+2024-09-01 12:16:19,670 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-01 12:16:19,670 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-01 12:16:19,670 INFO: Directory artifacts created successfully !
+2024-09-01 12:16:19,670 INFO: Directory artifacts/data_ingestion created successfully !
+2024-09-01 12:16:19,670 ERROR: error is raised from get size function :; unsupported operand type(s) for /: 'PosixPath' and 'int'
+2024-09-01 12:16:19,670 ERROR: Error in data ingestion stage: Return value of <function get_size at 0x10146b880> of type <class 'NoneType'> does not match annotation type <class 'int'>
+2024-09-01 12:16:19,671 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-01 12:16:19,671 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-01 12:16:19,671 INFO: Directory artifacts created successfully !
+2024-09-01 12:16:19,671 INFO: Directory artifacts/data_validation created successfully !
+2024-09-01 12:16:19,671 INFO: successfully execute :: data Validation
