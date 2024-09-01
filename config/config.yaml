@@ -1,0 +1,14 @@
+artifacts_root: artifacts
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_url: https://github.com/rahul6796/datasets1/raw/main/conll2003.zip
+  local_file_path: artifacts/data_ingestion/data.zip
+  unzip_dir: artifacts/data_ingestion
+
+
+  
+
+
+
+  
