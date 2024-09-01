@@ -12,7 +12,10 @@ data_validation:
   ALL_REQUIRED_FIELS: ['train', 'test', 'validation']
 
 
-
+data_transformation:
+  root_dir: artifacts/data_transformation
+  data_path: artifacts/data_ingestion/conll2003
+  tokenizer_name: elastic/distilbert-base-uncased-finetuned-conll03-english
 
 
 

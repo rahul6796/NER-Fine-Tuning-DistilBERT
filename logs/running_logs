@@ -266,3 +266,39 @@ Source-Age: 0
 2024-09-01 12:16:19,671 INFO: Directory artifacts created successfully !
 2024-09-01 12:16:19,671 INFO: Directory artifacts/data_validation created successfully !
 2024-09-01 12:16:19,671 INFO: successfully execute :: data Validation
+2024-09-01 16:09:08,468 INFO: PyTorch version 2.4.0 available.
+2024-09-01 16:09:08,468 INFO: TensorFlow version 2.17.0 available.
+2024-09-01 16:09:08,601 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-01 16:09:08,601 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-01 16:09:08,601 INFO: Directory artifacts created successfully !
+2024-09-01 16:09:08,601 INFO: Directory artifacts/data_ingestion created successfully !
+2024-09-01 16:09:08,601 ERROR: error is raised from get size function :; unsupported operand type(s) for /: 'PosixPath' and 'int'
+2024-09-01 16:09:08,602 ERROR: Error in data ingestion stage: Return value of <function get_size at 0x103aafa30> of type <class 'NoneType'> does not match annotation type <class 'int'>
+2024-09-01 16:09:08,602 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-01 16:09:08,602 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-01 16:09:08,602 INFO: Directory artifacts created successfully !
+2024-09-01 16:09:08,602 INFO: Directory artifacts/data_validation created successfully !
+2024-09-01 16:09:08,603 INFO: successfully execute :: data Validation
+2024-09-01 16:09:08,603 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-01 16:09:08,604 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-01 16:09:08,604 INFO: Directory artifacts created successfully !
+2024-09-01 16:09:08,604 INFO: Directory artifacts/data_transformation created successfully !
+2024-09-01 16:09:13,278 ERROR: Error in data Transformation stage: 'DataTransformation' object has no attribute 'tokenize_and_align_labels'
+2024-09-01 16:09:44,753 INFO: PyTorch version 2.4.0 available.
+2024-09-01 16:09:44,754 INFO: TensorFlow version 2.17.0 available.
+2024-09-01 16:09:44,887 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-01 16:09:44,887 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-01 16:09:44,887 INFO: Directory artifacts created successfully !
+2024-09-01 16:09:44,887 INFO: Directory artifacts/data_ingestion created successfully !
+2024-09-01 16:09:44,887 ERROR: error is raised from get size function :; unsupported operand type(s) for /: 'PosixPath' and 'int'
+2024-09-01 16:09:44,887 ERROR: Error in data ingestion stage: Return value of <function get_size at 0x10355b9a0> of type <class 'NoneType'> does not match annotation type <class 'int'>
+2024-09-01 16:09:44,888 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-01 16:09:44,888 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-01 16:09:44,888 INFO: Directory artifacts created successfully !
+2024-09-01 16:09:44,888 INFO: Directory artifacts/data_validation created successfully !
+2024-09-01 16:09:44,888 INFO: successfully execute :: data Validation
+2024-09-01 16:09:44,889 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-01 16:09:44,889 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-01 16:09:44,889 INFO: Directory artifacts created successfully !
+2024-09-01 16:09:44,889 INFO: Directory artifacts/data_transformation created successfully !
+2024-09-01 16:09:45,911 INFO: successfully execute :: data Transformation

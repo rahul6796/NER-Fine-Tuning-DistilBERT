@@ -19,6 +19,11 @@ class DataValidationConfig:
     STATUS_FIEL: str
     ALL_REQUIRED_FIELS: list
 
+@dataclass(frozen=True)
+class DataTransformationConfig:
+    root_dir: Path
+    data_path: Path
+    tokenizer_name: Path
 
 
 
