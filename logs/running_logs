@@ -157,3 +157,186 @@ Source-Age: 0
 2024-09-08 00:11:21,196 INFO: Directory artifacts created successfully !
 2024-09-08 00:11:21,196 INFO: Directory artifacts/model_trainer created successfully !
 2024-09-08 00:23:07,689 INFO: successfully execute :: model trainer
+2024-09-08 01:26:08,450 INFO: PyTorch version 2.4.0 available.
+2024-09-08 01:26:08,451 INFO: TensorFlow version 2.17.0 available.
+2024-09-08 01:26:19,646 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 01:26:19,646 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 01:26:19,647 INFO: Directory artifacts created successfully !
+2024-09-08 01:26:19,647 INFO: Directory artifacts/data_ingestion created successfully !
+2024-09-08 01:26:41,289 INFO: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 1804538
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "25dc9a8c76312c4f22c700407d16a21e1b8816a208c577a7503291d04cc69912"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: B4C5:3DCE1A:1C14B7:22F2B8:66DC98DA
+Accept-Ranges: bytes
+Date: Sat, 07 Sep 2024 19:56:30 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10250-MAA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1725738990.940574,VS0,VE367
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: ca459b432dda52397e38b9a3cb2079e9894be63d
+Expires: Sat, 07 Sep 2024 20:01:30 GMT
+Source-Age: 0
+
+
+2024-09-08 01:26:41,331 INFO: successfully execute :: data ingestion
+2024-09-08 01:26:41,333 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 01:26:41,333 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 01:26:41,333 INFO: Directory artifacts created successfully !
+2024-09-08 01:26:41,333 INFO: Directory artifacts/data_validation created successfully !
+2024-09-08 01:26:41,334 INFO: successfully execute :: data Validation
+2024-09-08 01:26:41,335 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 01:26:41,336 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 01:26:41,336 INFO: Directory artifacts created successfully !
+2024-09-08 01:26:41,336 INFO: Directory artifacts/data_transformation created successfully !
+2024-09-08 01:26:43,193 INFO: successfully execute :: data Transformation
+2024-09-08 01:26:43,195 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 01:26:43,195 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 01:26:43,195 INFO: Directory artifacts created successfully !
+2024-09-08 01:26:43,195 INFO: Directory artifacts/model_trainer created successfully !
+2024-09-08 01:26:44,574 ERROR: Error in model trainer stage: Directory artifacts/data_transformation/conll2003 not found
+2024-09-08 01:29:00,498 INFO: PyTorch version 2.4.0 available.
+2024-09-08 01:29:00,499 INFO: TensorFlow version 2.17.0 available.
+2024-09-08 01:29:05,105 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 01:29:05,106 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 01:29:05,106 INFO: Directory artifacts created successfully !
+2024-09-08 01:29:05,106 INFO: Directory artifacts/data_ingestion created successfully !
+2024-09-08 01:29:05,106 ERROR: error is raised from get size function :; unsupported operand type(s) for /: 'PosixPath' and 'int'
+2024-09-08 01:29:05,106 ERROR: Error in data ingestion stage: Return value of <function get_size at 0x101667910> of type <class 'NoneType'> does not match annotation type <class 'int'>
+2024-09-08 01:29:05,108 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 01:29:05,108 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 01:29:05,108 INFO: Directory artifacts created successfully !
+2024-09-08 01:29:05,108 INFO: Directory artifacts/data_validation created successfully !
+2024-09-08 01:29:05,109 INFO: successfully execute :: data Validation
+2024-09-08 01:29:05,111 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 01:29:05,112 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 01:29:05,112 INFO: Directory artifacts created successfully !
+2024-09-08 01:29:05,112 INFO: Directory artifacts/data_transformation created successfully !
+2024-09-08 01:29:06,206 INFO: successfully execute :: data Transformation
+2024-09-08 01:29:06,207 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 01:29:06,207 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 01:29:06,207 INFO: Directory artifacts created successfully !
+2024-09-08 01:29:06,207 INFO: Directory artifacts/model_trainer created successfully !
+2024-09-08 01:29:06,485 ERROR: Error in model trainer stage: Directory artifacts/data_transformation/conll2003 not found
+2024-09-08 01:32:14,452 INFO: PyTorch version 2.4.0 available.
+2024-09-08 01:32:14,453 INFO: TensorFlow version 2.17.0 available.
+2024-09-08 01:32:19,260 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 01:32:19,261 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 01:32:19,261 INFO: Directory artifacts created successfully !
+2024-09-08 01:32:19,261 INFO: Directory artifacts/data_ingestion created successfully !
+2024-09-08 01:32:21,371 INFO: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 1804538
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "25dc9a8c76312c4f22c700407d16a21e1b8816a208c577a7503291d04cc69912"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: B4C5:3DCE1A:1C14B7:22F2B8:66DC98DA
+Accept-Ranges: bytes
+Date: Sat, 07 Sep 2024 20:02:20 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10240-MAA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1725739340.239516,VS0,VE281
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 7efb0bfc9932d3c58e86ca885967765368d9269c
+Expires: Sat, 07 Sep 2024 20:07:20 GMT
+Source-Age: 0
+
+
+2024-09-08 01:32:21,412 INFO: successfully execute :: data ingestion
+2024-09-08 01:32:21,414 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 01:32:21,414 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 01:32:21,414 INFO: Directory artifacts created successfully !
+2024-09-08 01:32:21,414 INFO: Directory artifacts/data_validation created successfully !
+2024-09-08 01:32:21,415 INFO: successfully execute :: data Validation
+2024-09-08 01:32:21,416 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 01:32:21,416 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 01:32:21,416 INFO: Directory artifacts created successfully !
+2024-09-08 01:32:21,417 INFO: Directory artifacts/data_transformation created successfully !
+2024-09-08 01:32:24,515 INFO: successfully execute :: data Transformation
+2024-09-08 01:32:24,516 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 01:32:24,517 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 01:32:24,517 INFO: Directory artifacts created successfully !
+2024-09-08 01:32:24,517 INFO: Directory artifacts/model_trainer created successfully !
+2024-09-08 01:32:25,224 ERROR: Error in model trainer stage: Directory artifacts/data_transformation/conll2003 not found
+2024-09-08 01:33:06,043 INFO: PyTorch version 2.4.0 available.
+2024-09-08 01:33:06,043 INFO: TensorFlow version 2.17.0 available.
+2024-09-08 01:33:11,525 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 01:33:11,526 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 01:33:11,526 INFO: Directory artifacts created successfully !
+2024-09-08 01:33:11,526 INFO: Directory artifacts/data_ingestion created successfully !
+2024-09-08 01:33:11,526 ERROR: error is raised from get size function :; unsupported operand type(s) for /: 'PosixPath' and 'int'
+2024-09-08 01:33:11,526 ERROR: Error in data ingestion stage: Return value of <function get_size at 0x105803910> of type <class 'NoneType'> does not match annotation type <class 'int'>
+2024-09-08 01:33:11,528 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 01:33:11,529 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 01:33:11,529 INFO: Directory artifacts created successfully !
+2024-09-08 01:33:11,529 INFO: Directory artifacts/data_validation created successfully !
+2024-09-08 01:33:11,530 INFO: successfully execute :: data Validation
+2024-09-08 01:33:11,532 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 01:33:11,532 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 01:33:11,532 INFO: Directory artifacts created successfully !
+2024-09-08 01:33:11,532 INFO: Directory artifacts/data_transformation created successfully !
+2024-09-08 01:33:15,652 INFO: successfully execute :: data Transformation
+2024-09-08 01:33:15,654 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 01:33:15,654 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 01:33:15,654 INFO: Directory artifacts created successfully !
+2024-09-08 01:33:15,654 INFO: Directory artifacts/model_trainer created successfully !
+2024-09-08 01:43:25,835 INFO: successfully execute :: model trainer
+2024-09-08 02:12:20,502 INFO: PyTorch version 2.4.0 available.
+2024-09-08 02:12:20,502 INFO: TensorFlow version 2.17.0 available.
+2024-09-08 02:12:27,433 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 02:12:27,434 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 02:12:27,434 INFO: Directory artifacts created successfully !
+2024-09-08 02:12:27,434 INFO: Directory artifacts/data_ingestion created successfully !
+2024-09-08 02:12:27,434 ERROR: error is raised from get size function :; unsupported operand type(s) for /: 'PosixPath' and 'int'
+2024-09-08 02:12:27,434 ERROR: Error in data ingestion stage: Return value of <function get_size at 0x1014479a0> of type <class 'NoneType'> does not match annotation type <class 'int'>
+2024-09-08 02:12:27,436 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 02:12:27,436 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 02:12:27,437 INFO: Directory artifacts created successfully !
+2024-09-08 02:12:27,437 INFO: Directory artifacts/data_validation created successfully !
+2024-09-08 02:12:27,437 INFO: successfully execute :: data Validation
+2024-09-08 02:12:27,439 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 02:12:27,440 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 02:12:27,440 INFO: Directory artifacts created successfully !
+2024-09-08 02:12:27,440 INFO: Directory artifacts/data_transformation created successfully !
+2024-09-08 02:12:28,320 INFO: successfully execute :: data Transformation
+2024-09-08 02:13:23,429 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 02:13:23,430 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 02:13:23,430 INFO: Directory artifacts created successfully !
+2024-09-08 02:15:47,843 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 02:15:47,844 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 02:15:47,845 INFO: Directory artifacts created successfully !
+2024-09-08 02:17:53,188 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 02:17:53,191 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 02:17:53,191 INFO: Directory artifacts created successfully !
+2024-09-08 02:20:03,127 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 02:20:03,128 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 02:20:03,129 INFO: Directory artifacts created successfully !
+2024-09-08 02:21:54,391 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 02:21:54,393 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 02:21:54,393 INFO: Directory artifacts created successfully !
+2024-09-08 02:27:58,287 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 02:27:58,289 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 02:27:58,289 INFO: Directory artifacts created successfully !
+2024-09-08 02:29:53,219 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 02:29:53,222 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 02:29:53,222 INFO: Directory artifacts created successfully !

@@ -25,7 +25,7 @@ model_trainer:
   model_ckpt: elastic/distilbert-base-uncased-finetuned-conll03-english
 
 
-
-
-
+model_prediction:
+  model_path: artifacts/model_trainer/ner-distilbert
+  tokenizer_path: artifacts/model_trainer/tokenizer
   

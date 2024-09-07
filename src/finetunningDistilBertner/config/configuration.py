@@ -3,7 +3,7 @@
 from src.finetunningDistilBertner.utils.common import read_yaml, create_directories
 from src.finetunningDistilBertner.entity import DataIngestionConfig, DataValidationConfig, DataTransformationConfig
 from src.finetunningDistilBertner.constant import PARAMS_PATH_FILE, CONFIG_PATH_FILE
-from src.finetunningDistilBertner.entity import ModelTrainerConfig
+from src.finetunningDistilBertner.entity import ModelTrainerConfig, ModelPredictionConfig
 
 
 class ConfigManager:
@@ -76,7 +76,15 @@ class ConfigManager:
     
 
 
+    def get_model_prediction_config(self)->ModelPredictionConfig:
+        config = self.config.model_prediction
+        model_prediction_config = ModelPredictionConfig(
+            model_path=config.model_path,
+            tokenizer_path=config.tokenizer_path,
 
+        )
+
+        return model_prediction_config
 
         
         

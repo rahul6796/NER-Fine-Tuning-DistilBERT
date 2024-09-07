@@ -33,4 +33,13 @@ class ModelTrainerConfig:
     data_path: Path
     model_ckpt: Path
 
+@dataclass(frozen=True)
+class ModelPredictionConfig:   
+    model_path: Path
+    tokenizer_path: Path
+
+
+
+
+
 
