@@ -58,10 +58,11 @@ class DataTransformation:
 
     def convert(self):
         conll2003 = load_from_disk(self.config.data_path)
+        
         conll2003_dilbert = conll2003.map(
             self.tokenize_and_align_label,
             batched=True,
             remove_columns=conll2003["train"].column_names)
         
-        conll2003_dilbert.save_to_disk(os.path.join(self.config.root_dir,"conll203_dataset"))
+        conll2003_dilbert.save_to_disk(os.path.join(self.config.root_dir,"conll203"))
 

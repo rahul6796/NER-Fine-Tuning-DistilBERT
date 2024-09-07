@@ -20,7 +20,8 @@ data_transformation:
 
 model_trainer:
   root_dir: artifacts/model_trainer
-  data_path: artifacts/data_transformation/conll203_dataset
+  raw_data_path: artifacts/data_ingestion/conll2003
+  data_path: artifacts/data_transformation/conll203
   model_ckpt: elastic/distilbert-base-uncased-finetuned-conll03-english
 
 

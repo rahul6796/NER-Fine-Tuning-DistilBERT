@@ -302,3 +302,91 @@ Source-Age: 0
 2024-09-01 16:09:44,889 INFO: Directory artifacts created successfully !
 2024-09-01 16:09:44,889 INFO: Directory artifacts/data_transformation created successfully !
 2024-09-01 16:09:45,911 INFO: successfully execute :: data Transformation
+2024-09-07 18:53:14,446 INFO: PyTorch version 2.4.0 available.
+2024-09-07 18:53:14,447 INFO: TensorFlow version 2.17.0 available.
+2024-09-07 18:53:14,762 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-07 18:53:14,762 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-07 18:53:14,762 INFO: Directory artifacts created successfully !
+2024-09-07 18:53:14,762 INFO: Directory artifacts/data_ingestion created successfully !
+2024-09-07 18:53:22,829 INFO: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 1804538
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "25dc9a8c76312c4f22c700407d16a21e1b8816a208c577a7503291d04cc69912"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: D08E:5EE49:75FBB:966FC:66DC53C4
+Accept-Ranges: bytes
+Date: Sat, 07 Sep 2024 13:23:17 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10220-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1725715397.855582,VS0,VE542
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: bba12b0c3385b6b53413c1de59c8628f6b8db354
+Expires: Sat, 07 Sep 2024 13:28:17 GMT
+Source-Age: 0
+
+
+2024-09-07 18:53:22,867 INFO: successfully execute :: data ingestion
+2024-09-07 18:53:22,868 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-07 18:53:22,868 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-07 18:53:22,868 INFO: Directory artifacts created successfully !
+2024-09-07 18:53:22,869 INFO: Directory artifacts/data_validation created successfully !
+2024-09-07 18:53:22,869 INFO: successfully execute :: data Validation
+2024-09-07 18:53:22,870 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-07 18:53:22,870 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-07 18:53:22,870 INFO: Directory artifacts created successfully !
+2024-09-07 18:53:22,870 INFO: Directory artifacts/data_transformation created successfully !
+2024-09-07 18:53:24,698 INFO: successfully execute :: data Transformation
+2024-09-07 19:05:12,318 INFO: PyTorch version 2.4.0 available.
+2024-09-07 19:05:12,318 INFO: TensorFlow version 2.17.0 available.
+2024-09-07 19:05:12,457 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-07 19:05:12,457 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-07 19:05:12,457 INFO: Directory artifacts created successfully !
+2024-09-07 19:05:12,457 INFO: Directory artifacts/data_ingestion created successfully !
+2024-09-07 19:05:20,251 INFO: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 1804538
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "25dc9a8c76312c4f22c700407d16a21e1b8816a208c577a7503291d04cc69912"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: D08E:5EE49:75FBB:966FC:66DC53C4
+Accept-Ranges: bytes
+Date: Sat, 07 Sep 2024 13:35:14 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10239-MAA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1725716114.661786,VS0,VE375
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: dbb2bd65b44ff24acb33003eb0bfbc0acaee0741
+Expires: Sat, 07 Sep 2024 13:40:14 GMT
+Source-Age: 0
+
+
+2024-09-07 19:05:20,289 INFO: successfully execute :: data ingestion
+2024-09-07 19:05:20,290 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-07 19:05:20,291 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-07 19:05:20,291 INFO: Directory artifacts created successfully !
+2024-09-07 19:05:20,291 INFO: Directory artifacts/data_validation created successfully !
+2024-09-07 19:05:20,291 INFO: successfully execute :: data Validation
+2024-09-07 19:05:20,292 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-07 19:05:20,292 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-07 19:05:20,292 INFO: Directory artifacts created successfully !
+2024-09-07 19:05:20,293 INFO: Directory artifacts/data_transformation created successfully !
+2024-09-07 19:05:23,293 INFO: successfully execute :: data Transformation

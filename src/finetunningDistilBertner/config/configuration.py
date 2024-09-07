@@ -3,6 +3,7 @@
 from src.finetunningDistilBertner.utils.common import read_yaml, create_directories
 from src.finetunningDistilBertner.entity import DataIngestionConfig, DataValidationConfig, DataTransformationConfig
 from src.finetunningDistilBertner.constant import PARAMS_PATH_FILE, CONFIG_PATH_FILE
+from src.finetunningDistilBertner.entity import ModelTrainerConfig
 
 
 class ConfigManager:
@@ -58,6 +59,20 @@ class ConfigManager:
         )
 
         return data_transformation_config
+    
+
+    def get_model_trainer_config(self)-> ModelTrainerConfig:
+        config = self.config.model_trainer
+        create_directories([config.root_dir])
+
+        model_trainer_config = ModelTrainerConfig(
+            root_dir=config.root_dir,
+            raw_data_path = config.raw_data_path,
+            data_path=config.data_path,
+            model_ckpt=config.model_ckpt
+        )
+
+        return model_trainer_config
     
 
 

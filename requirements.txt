@@ -17,3 +17,4 @@ uvicorn
 Jinja2
 ensure
 python-box
+seqeval
