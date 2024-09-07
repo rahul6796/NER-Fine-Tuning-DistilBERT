@@ -47,8 +47,9 @@ except Exception as e:
 START_STAGE = "model trainer"
 
 try:
-    data_transformation  = DataTransformationPipeline()
-    data_transformation.run()
+    model_trainer = ModelTrainerPipeline()
+    model_trainer.run()
+
     logger.info(f'successfully execute :: {START_STAGE}')
 except Exception as e:
     logger.error(f"Error in {START_STAGE} stage: {str(e)}")

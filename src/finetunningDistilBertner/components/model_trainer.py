@@ -4,7 +4,7 @@ from src.finetunningDistilBertner.entity import ModelTrainerConfig
 from transformers import AutoModelForTokenClassification, AutoTokenizer
 from transformers import DataCollatorForTokenClassification
 from transformers import TrainingArguments, Trainer
-from datasets import load_dataset
+from datasets import load_dataset, load_from_disk
 
 import os 
 import numpy as np 
@@ -18,7 +18,7 @@ class ModelTrainer:
 
     def __init__(self, config: ModelTrainerConfig):
         self.config = config
-        self.raw_datasets = load_dataset(self.config.raw_data_path)
+        self.raw_datasets = load_from_disk(self.config.raw_data_path)
 
     def get_labels_names(self):
         
@@ -38,8 +38,8 @@ class ModelTrainer:
         
         label_names = self.get_labels_names()
         tokenizer = AutoTokenizer.from_pretrained(self.config.model_ckpt)
-        tokenized_datasets = self.config.data_path
-        
+        tokenized_datasets = load_from_disk(self.config.data_path)
+
         data_collector = DataCollatorForTokenClassification(tokenizer=tokenizer)
         id2label = {i: label for i, label in enumerate(label_names)}
         label2id = {v: k for k, v in id2label.items()}
@@ -52,7 +52,7 @@ class ModelTrainer:
                                 evaluation_strategy="epoch",
                                 save_strategy="epoch",
                                 learning_rate=2e-5,
-                                num_train_epochs=1,
+                                num_train_epochs=3,
                                 weight_decay=0.01)
         
     
@@ -62,7 +62,7 @@ class ModelTrainer:
             train_dataset=tokenized_datasets["train"],
             eval_dataset=tokenized_datasets["validation"],
             data_collator=data_collector,
-            compute_metrics=self.compute_metrics,
+            compute_metrics=self.compute_metrix,
             tokenizer=tokenizer,
         )
         trainer.train()

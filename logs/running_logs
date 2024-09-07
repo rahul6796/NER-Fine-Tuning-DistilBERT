@@ -1,142 +1,10 @@
-2024-08-31 19:53:47,080 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-08-31 19:53:47,080 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-08-31 19:53:47,080 ERROR: raised error from read yaml :: First argument must be mapping or iterable
-2024-08-31 19:53:47,080 ERROR: Error in data ingestion stage: Return value of <function read_yaml at 0x100e6e560> of type <class 'NoneType'> does not match annotation type <class 'box.config_box.ConfigBox'>
-2024-08-31 19:55:27,334 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-08-31 19:55:27,335 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-08-31 19:55:27,335 ERROR: Error reading yaml file: First argument must be mapping or iterable
-2024-08-31 19:55:27,335 ERROR: Error in data ingestion stage: Return value of <function read_yaml at 0x101d97760> of type <class 'NoneType'> does not match annotation type <class 'box.config_box.ConfigBox'>
-2024-08-31 19:56:08,387 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-08-31 19:56:08,387 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-08-31 19:56:08,387 INFO: Directory artifacts created successfully !
-2024-08-31 19:56:08,387 ERROR: Error in data ingestion stage: "'ConfigBox' object has no attribute 'local_data_path'"
-2024-08-31 19:57:27,232 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-08-31 19:57:27,232 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-08-31 19:57:27,232 INFO: Directory artifacts created successfully !
-2024-08-31 19:57:27,232 INFO: Directory artifacts/data_ingestion created successfully !
-2024-08-31 19:57:27,232 ERROR: Error in data ingestion stage: "'ConfigBox' object has no attribute 'local_data_path'"
-2024-08-31 19:57:39,995 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-08-31 19:57:39,995 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-08-31 19:57:39,995 INFO: Directory artifacts created successfully !
-2024-08-31 19:57:39,996 INFO: Directory artifacts/data_ingestion created successfully !
-2024-08-31 19:57:39,996 ERROR: Error in data ingestion stage: "'ConfigBox' object has no attribute 'local_data_path'"
-2024-08-31 19:58:10,622 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-08-31 19:58:10,622 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-08-31 19:58:10,622 INFO: Directory artifacts created successfully !
-2024-08-31 19:58:10,622 INFO: Directory artifacts/data_ingestion created successfully !
-2024-08-31 19:58:10,622 ERROR: Error in data ingestion stage: DataIngestionConfig.__init__() got an unexpected keyword argument 'local_data_path'
-2024-08-31 19:58:32,197 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-08-31 19:58:32,197 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-08-31 19:58:32,197 INFO: Directory artifacts created successfully !
-2024-08-31 19:58:32,197 INFO: Directory artifacts/data_ingestion created successfully !
-2024-08-31 19:58:32,197 ERROR: Error in data ingestion stage: DataIngestionConfig.__init__() got an unexpected keyword argument 'local_data_path'
-2024-08-31 19:58:50,247 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-08-31 19:58:50,247 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-08-31 19:58:50,247 INFO: Directory artifacts created successfully !
-2024-08-31 19:58:50,247 INFO: Directory artifacts/data_ingestion created successfully !
-2024-08-31 19:58:51,232 INFO: artifacts/data_ingestion/data.zip download! with following info: 
-Server: GitHub.com
-Date: Sat, 31 Aug 2024 14:28:50 GMT
-Content-Type: text/html; charset=utf-8
-Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
-ETag: W/"d5f321410d4dfc514558209e63ae13f3"
-Cache-Control: max-age=0, private, must-revalidate
-Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
-X-Frame-Options: deny
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Referrer-Policy: no-referrer-when-downgrade
-Content-Security-Policy: default-src 'none'; base-uri 'self'; child-src github.com/assets-cdn/worker/ github.com/webpack/ github.com/assets/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com *.rel.tunnels.api.visualstudio.com wss://*.rel.tunnels.api.visualstudio.com api.githubcopilot.com objects-origin.githubusercontent.com copilot-proxy.githubusercontent.com/v1/engines/github-completion/completions proxy.enterprise.githubcopilot.com/v1/engines/github-completion/completions *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net/ productionresultssa1.blob.core.windows.net/ productionresultssa2.blob.core.windows.net/ productionresultssa3.blob.core.windows.net/ productionresultssa4.blob.core.windows.net/ productionresultssa5.blob.core.windows.net/ productionresultssa6.blob.core.windows.net/ productionresultssa7.blob.core.windows.net/ productionresultssa8.blob.core.windows.net/ productionresultssa9.blob.core.windows.net/ productionresultssa10.blob.core.windows.net/ productionresultssa11.blob.core.windows.net/ productionresultssa12.blob.core.windows.net/ productionresultssa13.blob.core.windows.net/ productionresultssa14.blob.core.windows.net/ productionresultssa15.blob.core.windows.net/ productionresultssa16.blob.core.windows.net/ productionresultssa17.blob.core.windows.net/ productionresultssa18.blob.core.windows.net/ productionresultssa19.blob.core.windows.net/ github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: blob: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com secured-user-images.githubusercontent.com/ user-images.githubusercontent.com/ private-user-images.githubusercontent.com opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/ private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.com/assets-cdn/worker/ github.com/webpack/ github.com/assets/ gist.github.com/assets-cdn/worker/
-Set-Cookie: _gh_sess=9y9jlz8IaiYX8WJY540ky4znf4jzgFkCNXsfChkfrUpY2szJPP3qPG9l6%2BfjqPk1ddhAl1KQ3GO0eWzGciWBjkMFCuoF1McNV62IppllKhsuTKO%2Fcltchiqu1zOBf8sRp7d7AwVbfduFqTSreV8J%2BoNlb7cgfYzeLiL7wjTxDGkv2QyOwXqm9%2F1lrRYl6%2FIHtY7hI4e6ePSVn%2Bzhx8YkYLsBOUa7O0mLQVtvguh6n8U%2BOVrNT%2Bb8wYdfnPgxngO6tmFPwHaPSM96S6O5zyo1Eg%3D%3D--zXRZECEwqAjHFgai--tqytykjW6Izv%2BCvrtrBvSQ%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
-Set-Cookie: _octo=GH1.1.1944644377.1725114530; Path=/; Domain=github.com; Expires=Sun, 31 Aug 2025 14:28:50 GMT; Secure; SameSite=Lax
-Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Sun, 31 Aug 2025 14:28:50 GMT; HttpOnly; Secure; SameSite=Lax
-Accept-Ranges: bytes
-Transfer-Encoding: chunked
-X-GitHub-Request-Id: 5785:C6AA7:4F9889:5944F7:66D328A2
-connection: close
-
-
-2024-08-31 19:58:51,233 ERROR: Error in data ingestion stage: File is not a zip file
-2024-08-31 20:01:07,474 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-08-31 20:01:07,474 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-08-31 20:01:07,474 INFO: Directory artifacts created successfully !
-2024-08-31 20:01:07,474 INFO: Directory artifacts/data_ingestion created successfully !
-2024-08-31 20:01:07,474 ERROR: Error in data ingestion stage: 'DataIngestionConfig' object has no attribute 'local_data_file'
-2024-08-31 20:01:26,835 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-08-31 20:01:26,836 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-08-31 20:01:26,836 INFO: Directory artifacts created successfully !
-2024-08-31 20:01:26,836 INFO: Directory artifacts/data_ingestion created successfully !
-2024-08-31 20:01:26,836 ERROR: Error in data ingestion stage: 'DataIngestionConfig' object has no attribute 'local_data_file'
-2024-08-31 20:01:48,134 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-08-31 20:01:48,134 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-08-31 20:01:48,134 INFO: Directory artifacts created successfully !
-2024-08-31 20:01:48,134 INFO: Directory artifacts/data_ingestion created successfully !
-2024-08-31 20:01:48,134 ERROR: Error in data ingestion stage: 'DataIngestionConfig' object has no attribute 'local_data_file'
-2024-08-31 20:02:14,511 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-08-31 20:02:14,511 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-08-31 20:02:14,511 INFO: Directory artifacts created successfully !
-2024-08-31 20:02:14,511 INFO: Directory artifacts/data_ingestion created successfully !
-2024-08-31 20:02:14,511 ERROR: error is raised from get size function :; unsupported operand type(s) for /: 'PosixPath' and 'int'
-2024-08-31 20:02:14,511 ERROR: Error in data ingestion stage: Return value of <function get_size at 0x10193f910> of type <class 'NoneType'> does not match annotation type <class 'int'>
-2024-08-31 20:02:50,190 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-08-31 20:02:50,191 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-08-31 20:02:50,191 INFO: Directory artifacts created successfully !
-2024-08-31 20:02:50,191 INFO: Directory artifacts/data_ingestion created successfully !
-2024-08-31 20:02:51,260 INFO: artifacts/data_ingestion/data.zip download! with following info: 
-Server: GitHub.com
-Date: Sat, 31 Aug 2024 14:32:50 GMT
-Content-Type: text/html; charset=utf-8
-Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
-ETag: W/"4cc52e6350811ca9bea89c26e695a969"
-Cache-Control: max-age=0, private, must-revalidate
-Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
-X-Frame-Options: deny
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Referrer-Policy: no-referrer-when-downgrade
-Content-Security-Policy: default-src 'none'; base-uri 'self'; child-src github.com/assets-cdn/worker/ github.com/webpack/ github.com/assets/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com *.rel.tunnels.api.visualstudio.com wss://*.rel.tunnels.api.visualstudio.com api.githubcopilot.com objects-origin.githubusercontent.com copilot-proxy.githubusercontent.com/v1/engines/github-completion/completions proxy.enterprise.githubcopilot.com/v1/engines/github-completion/completions *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net/ productionresultssa1.blob.core.windows.net/ productionresultssa2.blob.core.windows.net/ productionresultssa3.blob.core.windows.net/ productionresultssa4.blob.core.windows.net/ productionresultssa5.blob.core.windows.net/ productionresultssa6.blob.core.windows.net/ productionresultssa7.blob.core.windows.net/ productionresultssa8.blob.core.windows.net/ productionresultssa9.blob.core.windows.net/ productionresultssa10.blob.core.windows.net/ productionresultssa11.blob.core.windows.net/ productionresultssa12.blob.core.windows.net/ productionresultssa13.blob.core.windows.net/ productionresultssa14.blob.core.windows.net/ productionresultssa15.blob.core.windows.net/ productionresultssa16.blob.core.windows.net/ productionresultssa17.blob.core.windows.net/ productionresultssa18.blob.core.windows.net/ productionresultssa19.blob.core.windows.net/ github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: blob: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com secured-user-images.githubusercontent.com/ user-images.githubusercontent.com/ private-user-images.githubusercontent.com opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/ private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.com/assets-cdn/worker/ github.com/webpack/ github.com/assets/ gist.github.com/assets-cdn/worker/
-Set-Cookie: _gh_sess=wy%2BLwAdEroSjRc5KH8X20oeZIKHoXdwn8ngKxYfQiEgerF2g9t4RO%2F1WqWj%2FtBT7k25yJxBBCFiDXFpVxBHfCHgik6CjABahMvpWk1Gw%2BhEyl6rERACIo3iJ8kLeembN9Mb4n3LQhVKqIjzdyDOZig8rjBjC2Vj0%2F2yazrZOTPcBZ1Tohf0Sq52dUG%2FEp%2BblMQr850U296Y8m%2B19XnCeJV5J3q99oIHZqsyAH787NRmUufq4xaiAR8JAV6uG%2BpJWe2i1FA4%2Bo%2F7f34TZxNfURg%3D%3D--Nwet8cLmK0vzKtOa--MxD1x%2FG95UR6JXVAVneMdQ%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
-Set-Cookie: _octo=GH1.1.2056848962.1725114770; Path=/; Domain=github.com; Expires=Sun, 31 Aug 2025 14:32:50 GMT; Secure; SameSite=Lax
-Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Sun, 31 Aug 2025 14:32:50 GMT; HttpOnly; Secure; SameSite=Lax
-Accept-Ranges: bytes
-Transfer-Encoding: chunked
-X-GitHub-Request-Id: 0E98:C6AA7:500616:59BFB4:66D32992
-connection: close
-
-
-2024-08-31 20:02:51,261 ERROR: Error in data ingestion stage: File is not a zip file
-2024-08-31 20:04:42,521 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-08-31 20:04:42,521 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-08-31 20:04:42,521 INFO: Directory artifacts created successfully !
-2024-08-31 20:04:42,521 INFO: Directory artifacts/data_ingestion created successfully !
-2024-08-31 20:04:43,470 INFO: artifacts/data_ingestion/data.zip download! with following info: 
-Server: GitHub.com
-Date: Sat, 31 Aug 2024 14:34:43 GMT
-Content-Type: text/html; charset=utf-8
-Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
-ETag: W/"4bacc2e7a9ebd70dfd70deca9d9e916d"
-Cache-Control: max-age=0, private, must-revalidate
-Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
-X-Frame-Options: deny
-X-Content-Type-Options: nosniff
-X-XSS-Protection: 0
-Referrer-Policy: no-referrer-when-downgrade
-Content-Security-Policy: default-src 'none'; base-uri 'self'; child-src github.com/assets-cdn/worker/ github.com/webpack/ github.com/assets/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com *.rel.tunnels.api.visualstudio.com wss://*.rel.tunnels.api.visualstudio.com api.githubcopilot.com objects-origin.githubusercontent.com copilot-proxy.githubusercontent.com/v1/engines/github-completion/completions proxy.enterprise.githubcopilot.com/v1/engines/github-completion/completions *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net/ productionresultssa1.blob.core.windows.net/ productionresultssa2.blob.core.windows.net/ productionresultssa3.blob.core.windows.net/ productionresultssa4.blob.core.windows.net/ productionresultssa5.blob.core.windows.net/ productionresultssa6.blob.core.windows.net/ productionresultssa7.blob.core.windows.net/ productionresultssa8.blob.core.windows.net/ productionresultssa9.blob.core.windows.net/ productionresultssa10.blob.core.windows.net/ productionresultssa11.blob.core.windows.net/ productionresultssa12.blob.core.windows.net/ productionresultssa13.blob.core.windows.net/ productionresultssa14.blob.core.windows.net/ productionresultssa15.blob.core.windows.net/ productionresultssa16.blob.core.windows.net/ productionresultssa17.blob.core.windows.net/ productionresultssa18.blob.core.windows.net/ productionresultssa19.blob.core.windows.net/ github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: blob: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com secured-user-images.githubusercontent.com/ user-images.githubusercontent.com/ private-user-images.githubusercontent.com opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/ private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.com/assets-cdn/worker/ github.com/webpack/ github.com/assets/ gist.github.com/assets-cdn/worker/
-Set-Cookie: _gh_sess=1oFBggkZEcknb%2FHjvmrFVwCyEIoJSbaknpSiVPDPh1saey7FR557d%2FuAUvnE3safHeGiQsduFCHXMtouNXp7i2CO1Y%2FNLfM1%2Bgu%2B0u6EDaUaZ9ksmcmuu6RmJTIbAoyBhRAZLUD9mS73aTR5PAhFz%2BLmiF7zILZs5sjly4O%2Bnhg%2BcQm7w7e0pgy5A%2FD8ckEB52wKowLsMH8gqLKP6SKJrqiulrpO7HFggdQhzGt6oo1pPNv2%2FNx9W0VQ8%2BRp%2F6J5dRKr2budPEC0TMstc2%2FH3Q%3D%3D--IF3AcRtFCii6tqEz--K%2BqMeyUdnvry%2FrFyaxdILQ%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
-Set-Cookie: _octo=GH1.1.1325996126.1725114882; Path=/; Domain=github.com; Expires=Sun, 31 Aug 2025 14:34:42 GMT; Secure; SameSite=Lax
-Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Sun, 31 Aug 2025 14:34:42 GMT; HttpOnly; Secure; SameSite=Lax
-Accept-Ranges: bytes
-Transfer-Encoding: chunked
-X-GitHub-Request-Id: 25B0:2F9504:5046B9:5A05B8:66D32A02
-connection: close
-
-
-2024-08-31 20:04:43,470 ERROR: Error in data ingestion stage: File is not a zip file
-2024-08-31 20:16:37,063 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-08-31 20:16:37,064 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-08-31 20:16:37,064 INFO: Directory artifacts created successfully !
-2024-08-31 20:16:37,064 INFO: Directory artifacts/data_ingestion created successfully !
-2024-08-31 20:16:39,250 INFO: artifacts/data_ingestion/data.zip download! with following info: 
+2024-09-07 23:50:23,760 INFO: PyTorch version 2.4.0 available.
+2024-09-07 23:50:23,760 INFO: TensorFlow version 2.17.0 available.
+2024-09-07 23:50:31,860 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-07 23:50:31,861 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-07 23:50:31,861 INFO: Directory artifacts created successfully !
+2024-09-07 23:50:31,861 INFO: Directory artifacts/data_ingestion created successfully !
+2024-09-07 23:50:32,805 INFO: artifacts/data_ingestion/data.zip download! with following info: 
 Connection: close
 Content-Length: 1804538
 Cache-Control: max-age=300
@@ -147,246 +15,145 @@ Strict-Transport-Security: max-age=31536000
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-XSS-Protection: 1; mode=block
-X-GitHub-Request-Id: FCBF:57970:137618:18DAC3:66D32CCD
+X-GitHub-Request-Id: B4C5:3DCE1A:1C14B7:22F2B8:66DC98DA
 Accept-Ranges: bytes
-Date: Sat, 31 Aug 2024 14:46:38 GMT
+Date: Sat, 07 Sep 2024 18:20:32 GMT
 Via: 1.1 varnish
-X-Served-By: cache-maa10243-MAA
-X-Cache: MISS
-X-Cache-Hits: 0
-X-Timer: S1725115598.996183,VS0,VE864
-Vary: Authorization,Accept-Encoding,Origin
-Access-Control-Allow-Origin: *
-Cross-Origin-Resource-Policy: cross-origin
-X-Fastly-Request-ID: e98c17781212bad9e7e173d5824aa31b48e0013c
-Expires: Sat, 31 Aug 2024 14:51:38 GMT
-Source-Age: 1
-
-
-2024-08-31 20:16:39,291 INFO: successfully execute :: data ingestion
-2024-09-01 12:08:29,794 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-01 12:08:29,794 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-01 12:08:29,794 INFO: Directory artifacts created successfully !
-2024-09-01 12:08:29,794 INFO: Directory artifacts/data_ingestion created successfully !
-2024-09-01 12:08:29,794 ERROR: error is raised from get size function :; unsupported operand type(s) for /: 'PosixPath' and 'int'
-2024-09-01 12:08:29,794 ERROR: Error in data ingestion stage: Return value of <function get_size at 0x101723880> of type <class 'NoneType'> does not match annotation type <class 'int'>
-2024-09-01 12:08:29,795 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-01 12:08:29,795 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-01 12:08:29,795 INFO: Directory artifacts created successfully !
-2024-09-01 12:08:29,795 ERROR: Error in data Validation stage: 'NoneType' object has no attribute 'root_dir'
-2024-09-01 12:09:21,199 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-01 12:09:21,199 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-01 12:09:21,199 INFO: Directory artifacts created successfully !
-2024-09-01 12:09:21,199 INFO: Directory artifacts/data_ingestion created successfully !
-2024-09-01 12:09:21,199 ERROR: error is raised from get size function :; unsupported operand type(s) for /: 'PosixPath' and 'int'
-2024-09-01 12:09:21,200 ERROR: Error in data ingestion stage: Return value of <function get_size at 0x101887880> of type <class 'NoneType'> does not match annotation type <class 'int'>
-2024-09-01 12:09:21,200 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-01 12:09:21,200 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-01 12:09:21,200 INFO: Directory artifacts created successfully !
-2024-09-01 12:09:21,200 INFO: Directory artifacts/data_validation created successfully !
-2024-09-01 12:09:21,200 ERROR: Error in data Validation stage: 'function' object is not subscriptable
-2024-09-01 12:11:20,550 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-01 12:11:20,550 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-01 12:11:20,550 INFO: Directory artifacts created successfully !
-2024-09-01 12:11:20,550 INFO: Directory artifacts/data_ingestion created successfully !
-2024-09-01 12:11:20,550 ERROR: error is raised from get size function :; unsupported operand type(s) for /: 'PosixPath' and 'int'
-2024-09-01 12:11:20,550 ERROR: Error in data ingestion stage: Return value of <function get_size at 0x10396f880> of type <class 'NoneType'> does not match annotation type <class 'int'>
-2024-09-01 12:11:20,551 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-01 12:11:20,551 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-01 12:11:20,551 INFO: Directory artifacts created successfully !
-2024-09-01 12:11:20,551 INFO: Directory artifacts/data_validation created successfully !
-2024-09-01 12:11:20,551 ERROR: Error in data Validation stage: 'function' object is not subscriptable
-2024-09-01 12:14:04,676 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-01 12:14:04,677 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-01 12:14:04,677 INFO: Directory artifacts created successfully !
-2024-09-01 12:14:04,677 INFO: Directory artifacts/data_ingestion created successfully !
-2024-09-01 12:14:04,677 ERROR: error is raised from get size function :; unsupported operand type(s) for /: 'PosixPath' and 'int'
-2024-09-01 12:14:04,677 ERROR: Error in data ingestion stage: Return value of <function get_size at 0x103c13880> of type <class 'NoneType'> does not match annotation type <class 'int'>
-2024-09-01 12:14:04,677 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-01 12:14:04,677 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-01 12:14:04,677 INFO: Directory artifacts created successfully !
-2024-09-01 12:14:04,678 INFO: Directory artifacts/data_validation created successfully !
-2024-09-01 12:14:04,678 ERROR: Error in data Validation stage: 'function' object is not subscriptable
-2024-09-01 12:14:20,703 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-01 12:14:20,703 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-01 12:14:20,703 INFO: Directory artifacts created successfully !
-2024-09-01 12:14:20,703 INFO: Directory artifacts/data_ingestion created successfully !
-2024-09-01 12:14:22,332 INFO: artifacts/data_ingestion/data.zip download! with following info: 
-Connection: close
-Content-Length: 1804538
-Cache-Control: max-age=300
-Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
-Content-Type: application/zip
-ETag: "25dc9a8c76312c4f22c700407d16a21e1b8816a208c577a7503291d04cc69912"
-Strict-Transport-Security: max-age=31536000
-X-Content-Type-Options: nosniff
-X-Frame-Options: deny
-X-XSS-Protection: 1; mode=block
-X-GitHub-Request-Id: B972:7B9BD:140E89:1B39E8:66D40D45
-Accept-Ranges: bytes
-Date: Sun, 01 Sep 2024 06:44:21 GMT
-Via: 1.1 varnish
-X-Served-By: cache-maa10229-MAA
-X-Cache: MISS
-X-Cache-Hits: 0
-X-Timer: S1725173062.547723,VS0,VE418
-Vary: Authorization,Accept-Encoding,Origin
-Access-Control-Allow-Origin: *
-Cross-Origin-Resource-Policy: cross-origin
-X-Fastly-Request-ID: 0a7df8682cfe0940ec6347e822ac3730ff32c033
-Expires: Sun, 01 Sep 2024 06:49:21 GMT
-Source-Age: 0
-
-
-2024-09-01 12:14:22,376 INFO: successfully execute :: data ingestion
-2024-09-01 12:14:22,377 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-01 12:14:22,377 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-01 12:14:22,377 INFO: Directory artifacts created successfully !
-2024-09-01 12:14:22,377 INFO: Directory artifacts/data_validation created successfully !
-2024-09-01 12:14:22,377 ERROR: Error in data Validation stage: 'function' object is not subscriptable
-2024-09-01 12:15:44,745 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-01 12:15:44,745 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-01 12:15:44,745 INFO: Directory artifacts created successfully !
-2024-09-01 12:15:44,745 INFO: Directory artifacts/data_ingestion created successfully !
-2024-09-01 12:15:44,745 ERROR: error is raised from get size function :; unsupported operand type(s) for /: 'PosixPath' and 'int'
-2024-09-01 12:15:44,745 ERROR: Error in data ingestion stage: Return value of <function get_size at 0x1031f3880> of type <class 'NoneType'> does not match annotation type <class 'int'>
-2024-09-01 12:15:44,746 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-01 12:15:44,746 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-01 12:15:44,746 INFO: Directory artifacts created successfully !
-2024-09-01 12:15:44,746 INFO: Directory artifacts/data_validation created successfully !
-2024-09-01 12:15:44,746 ERROR: Error in data Validation stage: 'function' object is not subscriptable
-2024-09-01 12:16:19,670 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-01 12:16:19,670 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-01 12:16:19,670 INFO: Directory artifacts created successfully !
-2024-09-01 12:16:19,670 INFO: Directory artifacts/data_ingestion created successfully !
-2024-09-01 12:16:19,670 ERROR: error is raised from get size function :; unsupported operand type(s) for /: 'PosixPath' and 'int'
-2024-09-01 12:16:19,670 ERROR: Error in data ingestion stage: Return value of <function get_size at 0x10146b880> of type <class 'NoneType'> does not match annotation type <class 'int'>
-2024-09-01 12:16:19,671 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-01 12:16:19,671 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-01 12:16:19,671 INFO: Directory artifacts created successfully !
-2024-09-01 12:16:19,671 INFO: Directory artifacts/data_validation created successfully !
-2024-09-01 12:16:19,671 INFO: successfully execute :: data Validation
-2024-09-01 16:09:08,468 INFO: PyTorch version 2.4.0 available.
-2024-09-01 16:09:08,468 INFO: TensorFlow version 2.17.0 available.
-2024-09-01 16:09:08,601 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-01 16:09:08,601 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-01 16:09:08,601 INFO: Directory artifacts created successfully !
-2024-09-01 16:09:08,601 INFO: Directory artifacts/data_ingestion created successfully !
-2024-09-01 16:09:08,601 ERROR: error is raised from get size function :; unsupported operand type(s) for /: 'PosixPath' and 'int'
-2024-09-01 16:09:08,602 ERROR: Error in data ingestion stage: Return value of <function get_size at 0x103aafa30> of type <class 'NoneType'> does not match annotation type <class 'int'>
-2024-09-01 16:09:08,602 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-01 16:09:08,602 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-01 16:09:08,602 INFO: Directory artifacts created successfully !
-2024-09-01 16:09:08,602 INFO: Directory artifacts/data_validation created successfully !
-2024-09-01 16:09:08,603 INFO: successfully execute :: data Validation
-2024-09-01 16:09:08,603 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-01 16:09:08,604 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-01 16:09:08,604 INFO: Directory artifacts created successfully !
-2024-09-01 16:09:08,604 INFO: Directory artifacts/data_transformation created successfully !
-2024-09-01 16:09:13,278 ERROR: Error in data Transformation stage: 'DataTransformation' object has no attribute 'tokenize_and_align_labels'
-2024-09-01 16:09:44,753 INFO: PyTorch version 2.4.0 available.
-2024-09-01 16:09:44,754 INFO: TensorFlow version 2.17.0 available.
-2024-09-01 16:09:44,887 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-01 16:09:44,887 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-01 16:09:44,887 INFO: Directory artifacts created successfully !
-2024-09-01 16:09:44,887 INFO: Directory artifacts/data_ingestion created successfully !
-2024-09-01 16:09:44,887 ERROR: error is raised from get size function :; unsupported operand type(s) for /: 'PosixPath' and 'int'
-2024-09-01 16:09:44,887 ERROR: Error in data ingestion stage: Return value of <function get_size at 0x10355b9a0> of type <class 'NoneType'> does not match annotation type <class 'int'>
-2024-09-01 16:09:44,888 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-01 16:09:44,888 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-01 16:09:44,888 INFO: Directory artifacts created successfully !
-2024-09-01 16:09:44,888 INFO: Directory artifacts/data_validation created successfully !
-2024-09-01 16:09:44,888 INFO: successfully execute :: data Validation
-2024-09-01 16:09:44,889 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-01 16:09:44,889 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-01 16:09:44,889 INFO: Directory artifacts created successfully !
-2024-09-01 16:09:44,889 INFO: Directory artifacts/data_transformation created successfully !
-2024-09-01 16:09:45,911 INFO: successfully execute :: data Transformation
-2024-09-07 18:53:14,446 INFO: PyTorch version 2.4.0 available.
-2024-09-07 18:53:14,447 INFO: TensorFlow version 2.17.0 available.
-2024-09-07 18:53:14,762 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-07 18:53:14,762 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-07 18:53:14,762 INFO: Directory artifacts created successfully !
-2024-09-07 18:53:14,762 INFO: Directory artifacts/data_ingestion created successfully !
-2024-09-07 18:53:22,829 INFO: artifacts/data_ingestion/data.zip download! with following info: 
-Connection: close
-Content-Length: 1804538
-Cache-Control: max-age=300
-Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
-Content-Type: application/zip
-ETag: "25dc9a8c76312c4f22c700407d16a21e1b8816a208c577a7503291d04cc69912"
-Strict-Transport-Security: max-age=31536000
-X-Content-Type-Options: nosniff
-X-Frame-Options: deny
-X-XSS-Protection: 1; mode=block
-X-GitHub-Request-Id: D08E:5EE49:75FBB:966FC:66DC53C4
-Accept-Ranges: bytes
-Date: Sat, 07 Sep 2024 13:23:17 GMT
-Via: 1.1 varnish
-X-Served-By: cache-maa10220-MAA
-X-Cache: MISS
-X-Cache-Hits: 0
-X-Timer: S1725715397.855582,VS0,VE542
-Vary: Authorization,Accept-Encoding,Origin
-Access-Control-Allow-Origin: *
-Cross-Origin-Resource-Policy: cross-origin
-X-Fastly-Request-ID: bba12b0c3385b6b53413c1de59c8628f6b8db354
-Expires: Sat, 07 Sep 2024 13:28:17 GMT
-Source-Age: 0
-
-
-2024-09-07 18:53:22,867 INFO: successfully execute :: data ingestion
-2024-09-07 18:53:22,868 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-07 18:53:22,868 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-07 18:53:22,868 INFO: Directory artifacts created successfully !
-2024-09-07 18:53:22,869 INFO: Directory artifacts/data_validation created successfully !
-2024-09-07 18:53:22,869 INFO: successfully execute :: data Validation
-2024-09-07 18:53:22,870 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-07 18:53:22,870 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-07 18:53:22,870 INFO: Directory artifacts created successfully !
-2024-09-07 18:53:22,870 INFO: Directory artifacts/data_transformation created successfully !
-2024-09-07 18:53:24,698 INFO: successfully execute :: data Transformation
-2024-09-07 19:05:12,318 INFO: PyTorch version 2.4.0 available.
-2024-09-07 19:05:12,318 INFO: TensorFlow version 2.17.0 available.
-2024-09-07 19:05:12,457 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-07 19:05:12,457 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-07 19:05:12,457 INFO: Directory artifacts created successfully !
-2024-09-07 19:05:12,457 INFO: Directory artifacts/data_ingestion created successfully !
-2024-09-07 19:05:20,251 INFO: artifacts/data_ingestion/data.zip download! with following info: 
-Connection: close
-Content-Length: 1804538
-Cache-Control: max-age=300
-Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
-Content-Type: application/zip
-ETag: "25dc9a8c76312c4f22c700407d16a21e1b8816a208c577a7503291d04cc69912"
-Strict-Transport-Security: max-age=31536000
-X-Content-Type-Options: nosniff
-X-Frame-Options: deny
-X-XSS-Protection: 1; mode=block
-X-GitHub-Request-Id: D08E:5EE49:75FBB:966FC:66DC53C4
-Accept-Ranges: bytes
-Date: Sat, 07 Sep 2024 13:35:14 GMT
-Via: 1.1 varnish
-X-Served-By: cache-maa10239-MAA
+X-Served-By: cache-maa10245-MAA
 X-Cache: HIT
 X-Cache-Hits: 0
-X-Timer: S1725716114.661786,VS0,VE375
+X-Timer: S1725733233.586250,VS0,VE1
 Vary: Authorization,Accept-Encoding,Origin
 Access-Control-Allow-Origin: *
 Cross-Origin-Resource-Policy: cross-origin
-X-Fastly-Request-ID: dbb2bd65b44ff24acb33003eb0bfbc0acaee0741
-Expires: Sat, 07 Sep 2024 13:40:14 GMT
+X-Fastly-Request-ID: 69ef73eeaafb80eda6924eb76627a84219b08360
+Expires: Sat, 07 Sep 2024 18:25:32 GMT
+Source-Age: 150
+
+
+2024-09-07 23:50:32,841 INFO: successfully execute :: data ingestion
+2024-09-07 23:50:32,842 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-07 23:50:32,842 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-07 23:50:32,842 INFO: Directory artifacts created successfully !
+2024-09-07 23:50:32,842 INFO: Directory artifacts/data_validation created successfully !
+2024-09-07 23:50:32,843 INFO: successfully execute :: data Validation
+2024-09-07 23:50:32,844 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-07 23:50:32,844 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-07 23:50:32,844 INFO: Directory artifacts created successfully !
+2024-09-07 23:50:32,844 INFO: Directory artifacts/data_transformation created successfully !
+2024-09-07 23:50:38,963 INFO: successfully execute :: data Transformation
+2024-09-07 23:50:38,964 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-07 23:50:38,964 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-07 23:50:38,964 INFO: Directory artifacts created successfully !
+2024-09-07 23:50:38,964 INFO: Directory artifacts/model_trainer created successfully !
+2024-09-07 23:50:39,004 ERROR: Failed to read file '/Users/rahulprajapati/Documents/GitHub/NER-Fine-Tuning-DistilBERT/artifacts/data_ingestion/conll2003/train/data-00000-of-00001.arrow' with error <class 'datasets.table.CastError'>: Couldn't cast
+id: string
+tokens: list<item: string>
+  child 0, item: string
+pos_tags: list<item: int64>
+  child 0, item: int64
+chunk_tags: list<item: int64>
+  child 0, item: int64
+ner_tags: list<item: int64>
+  child 0, item: int64
+-- schema metadata --
+huggingface: '{"info": {"features": {"id": {"dtype": "string", "_type": "' + 930
+to
+{'input_ids': Sequence(feature=Value(dtype='int32', id=None), length=-1, id=None), 'attention_mask': Sequence(feature=Value(dtype='int8', id=None), length=-1, id=None), 'labels': Sequence(feature=Value(dtype='int64', id=None), length=-1, id=None)}
+because column names don't match
+2024-09-07 23:50:39,005 ERROR: Error in model trainer stage: An error occurred while generating the dataset
+2024-09-07 23:52:05,231 INFO: PyTorch version 2.4.0 available.
+2024-09-07 23:52:05,232 INFO: TensorFlow version 2.17.0 available.
+2024-09-07 23:52:11,094 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-07 23:52:11,095 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-07 23:52:11,095 INFO: Directory artifacts created successfully !
+2024-09-07 23:52:11,095 INFO: Directory artifacts/data_ingestion created successfully !
+2024-09-07 23:52:11,095 ERROR: error is raised from get size function :; unsupported operand type(s) for /: 'PosixPath' and 'int'
+2024-09-07 23:52:11,095 ERROR: Error in data ingestion stage: Return value of <function get_size at 0x10428f910> of type <class 'NoneType'> does not match annotation type <class 'int'>
+2024-09-07 23:52:11,097 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-07 23:52:11,097 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-07 23:52:11,097 INFO: Directory artifacts created successfully !
+2024-09-07 23:52:11,097 INFO: Directory artifacts/data_validation created successfully !
+2024-09-07 23:52:11,098 INFO: successfully execute :: data Validation
+2024-09-07 23:52:11,099 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-07 23:52:11,100 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-07 23:52:11,100 INFO: Directory artifacts created successfully !
+2024-09-07 23:52:11,100 INFO: Directory artifacts/data_transformation created successfully !
+2024-09-07 23:52:11,558 INFO: successfully execute :: data Transformation
+2024-09-07 23:52:11,559 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-07 23:52:11,560 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-07 23:52:11,560 INFO: Directory artifacts created successfully !
+2024-09-07 23:52:11,560 INFO: Directory artifacts/model_trainer created successfully !
+2024-09-07 23:52:58,187 ERROR: Error in model trainer stage: 'ModelTrainer' object has no attribute 'compute_metrics'
+2024-09-08 00:06:46,717 INFO: PyTorch version 2.4.0 available.
+2024-09-08 00:06:46,718 INFO: TensorFlow version 2.17.0 available.
+2024-09-08 00:06:52,121 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 00:06:52,123 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 00:06:52,123 INFO: Directory artifacts created successfully !
+2024-09-08 00:06:52,123 INFO: Directory artifacts/data_ingestion created successfully !
+2024-09-08 00:06:52,123 ERROR: error is raised from get size function :; unsupported operand type(s) for /: 'PosixPath' and 'int'
+2024-09-08 00:06:52,123 ERROR: Error in data ingestion stage: Return value of <function get_size at 0x105dc3910> of type <class 'NoneType'> does not match annotation type <class 'int'>
+2024-09-08 00:06:52,125 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 00:06:52,126 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 00:06:52,126 INFO: Directory artifacts created successfully !
+2024-09-08 00:06:52,126 INFO: Directory artifacts/data_validation created successfully !
+2024-09-08 00:06:52,127 INFO: successfully execute :: data Validation
+2024-09-08 00:06:52,130 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 00:06:52,131 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 00:06:52,131 INFO: Directory artifacts created successfully !
+2024-09-08 00:06:52,131 INFO: Directory artifacts/data_transformation created successfully !
+2024-09-08 00:06:52,635 INFO: successfully execute :: data Transformation
+2024-09-08 00:06:52,636 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 00:06:52,637 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 00:06:52,637 INFO: Directory artifacts created successfully !
+2024-09-08 00:06:52,637 INFO: Directory artifacts/model_trainer created successfully !
+2024-09-08 00:10:49,132 INFO: successfully execute :: model trainer
+2024-09-08 00:11:12,898 INFO: PyTorch version 2.4.0 available.
+2024-09-08 00:11:12,898 INFO: TensorFlow version 2.17.0 available.
+2024-09-08 00:11:18,262 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 00:11:18,263 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 00:11:18,263 INFO: Directory artifacts created successfully !
+2024-09-08 00:11:18,263 INFO: Directory artifacts/data_ingestion created successfully !
+2024-09-08 00:11:19,690 INFO: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 1804538
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "25dc9a8c76312c4f22c700407d16a21e1b8816a208c577a7503291d04cc69912"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: B4C5:3DCE1A:1C14B7:22F2B8:66DC98DA
+Accept-Ranges: bytes
+Date: Sat, 07 Sep 2024 18:41:19 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10244-MAA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1725734479.093390,VS0,VE274
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 286d7a71de0417877c3392206036d53577429eb6
+Expires: Sat, 07 Sep 2024 18:46:19 GMT
 Source-Age: 0
 
 
-2024-09-07 19:05:20,289 INFO: successfully execute :: data ingestion
-2024-09-07 19:05:20,290 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-07 19:05:20,291 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-07 19:05:20,291 INFO: Directory artifacts created successfully !
-2024-09-07 19:05:20,291 INFO: Directory artifacts/data_validation created successfully !
-2024-09-07 19:05:20,291 INFO: successfully execute :: data Validation
-2024-09-07 19:05:20,292 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-07 19:05:20,292 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
-2024-09-07 19:05:20,292 INFO: Directory artifacts created successfully !
-2024-09-07 19:05:20,293 INFO: Directory artifacts/data_transformation created successfully !
-2024-09-07 19:05:23,293 INFO: successfully execute :: data Transformation
+2024-09-08 00:11:19,718 INFO: successfully execute :: data ingestion
+2024-09-08 00:11:19,719 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 00:11:19,720 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 00:11:19,720 INFO: Directory artifacts created successfully !
+2024-09-08 00:11:19,720 INFO: Directory artifacts/data_validation created successfully !
+2024-09-08 00:11:19,720 INFO: successfully execute :: data Validation
+2024-09-08 00:11:19,722 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 00:11:19,723 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 00:11:19,723 INFO: Directory artifacts created successfully !
+2024-09-08 00:11:19,723 INFO: Directory artifacts/data_transformation created successfully !
+2024-09-08 00:11:21,195 INFO: successfully execute :: data Transformation
+2024-09-08 00:11:21,196 INFO: yaml_path : <_io.TextIOWrapper name='config/config.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 00:11:21,196 INFO: yaml_path : <_io.TextIOWrapper name='params.yaml' mode='r' encoding='UTF-8'> load successfully !
+2024-09-08 00:11:21,196 INFO: Directory artifacts created successfully !
+2024-09-08 00:11:21,196 INFO: Directory artifacts/model_trainer created successfully !
+2024-09-08 00:23:07,689 INFO: successfully execute :: model trainer
